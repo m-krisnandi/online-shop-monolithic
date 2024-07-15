@@ -1,0 +1,35 @@
+{"level":"error","message":"Sun Jul 14 2024 14:11:31 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:11:31.609Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:18:08 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:18:08.554Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:20:03 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:20:03.187Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:20:46 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:20:46.465Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:20:57 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:20:57.577Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:21:38 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:21:38.697Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:22:29 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:22:29.801Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:22:29 GMT+0700 (Western Indonesia Time) - {\"code\":\"ERR_HTTP_INVALID_STATUS_CODE\"}","private":true,"timestamp":"2024-07-14T07:22:29.809Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:23:16 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:23:16.259Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:23:16 GMT+0700 (Western Indonesia Time) - {\"code\":\"ERR_HTTP_INVALID_STATUS_CODE\"}","private":true,"timestamp":"2024-07-14T07:23:16.267Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:25:11 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:25:11.702Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:25:25 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:25:25.374Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:28:54 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:28:54.447Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:29:00 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:29:00.045Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:30:29 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:30:29.875Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:32:21 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:32:21.006Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:32:21 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:32:21.838Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:32:22 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:32:22.462Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:32:58 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:32:58.971Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:33:05 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:33:05.696Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:34:21 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:34:21.305Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:34:31 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:34:31.949Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:34:54 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:34:54.599Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:34:55 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:34:55.388Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:34:56 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:34:56.279Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:36:13 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:36:13.327Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:36:14 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:36:14.054Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:36:14 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:36:14.664Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:39:59 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:39:59.370Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:40:13 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:40:13.636Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:41:22 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:41:22.090Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:41:27 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:41:27.175Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:42:38 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:42:38.227Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:44:40 GMT+0700 (Western Indonesia Time) - {}","private":true,"timestamp":"2024-07-14T07:44:40.732Z"}
+{"level":"error","message":"Sun Jul 14 2024 14:51:05 GMT+0700 (Western Indonesia Time) - {\"name\":\"Data not found\",\"statusCode\":500,\"isOperational\":true}","private":true,"timestamp":"2024-07-14T07:51:05.011Z"}

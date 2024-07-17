@@ -88,23 +88,27 @@ class CustomerService {
 
     async GetProfile(id) {
         try {
-            const existingCustomer = await this.repository.FindCustomerById({id});
+            const existingCustomer = await this.repository.FindCustomerById({
+                id,
+            });
             return FormateData(existingCustomer);
         } catch (error) {
-            throw new APIError('Data Not found', error)
+            throw new APIError("Data Not found", error);
         }
     }
 
     async GetShopingDetails(id) {
         try {
-            const existingCustomer = await this.repository.FindCustomerById({id});
+            const existingCustomer = await this.repository.FindCustomerById({
+                id,
+            });
 
             if (existingCustomer) {
                 return FormateData(existingCustomer);
             }
-            return FormateData({msg: 'Error'})
+            return FormateData({ msg: "Error" });
         } catch (error) {
-            throw new APIError('Data Not found', error);
+            throw new APIError("Data Not found", error);
         }
     }
 
@@ -113,16 +117,33 @@ class CustomerService {
             const wishListItems = await this.repository.Wishlist(customerId);
             return FormateData(wishListItems);
         } catch (error) {
-            throw new APIError('Data Not found', error);
+            throw new APIError("Data Not found", error);
         }
     }
 
     async AddToWishlist(customerId, product) {
         try {
-            const wishlistResult = await this.repository.AddWishlistItem(customerId, product);
+            const wishlistResult = await this.repository.AddWishlistItem(
+                customerId,
+                product
+            );
             return FormateData(wishlistResult);
         } catch (error) {
-            throw new APIError('Data Not found', error);
+            throw new APIError("Data Not found", error);
+        }
+    }
+
+    async ManageCart(customerId, product, qty, isRemove) {
+        try {
+            const cartResult = await this.repository.AddCartItem(
+                customerId,
+                product,
+                qty,
+                isRemove
+            );
+            return FormateData(cartResult);
+        } catch (error) {
+            throw new APIError("Data Not found", error);
         }
     }
 }

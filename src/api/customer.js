@@ -64,4 +64,15 @@ module.exports = (app) => {
             next(error);
         }
     });
+
+    app.get("/customer/shopping-details", UserAuth, async (req, res, next) => {
+        try {
+            const { _id } = req.user;
+            const { data } = await service.GetShopingDetails(_id);
+
+            return res.status(200).json(data);
+        } catch (error) {
+            next(error);
+        }
+    });
 };

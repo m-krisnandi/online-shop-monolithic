@@ -146,6 +146,42 @@ class CustomerService {
             throw new APIError("Data Not found", error);
         }
     }
+
+    async ManageOrder(customerId, order) {
+        try {
+            const orderResult = await this.repository.AddOrderToProfile(
+                customerId,
+                order
+            );
+            return FormateData(orderResult);
+        } catch (error) {
+            throw new APIError("Data Not found", error);
+        }
+    }
+
+    async SubscribeEvents(payload) {
+        const { event, data } = payload;
+
+        const { userId, product, order, qty } = data;
+
+        switch (event) {
+            case "ADD_TO_WISHLIST":
+            case "REMOVE_FROM_WISHLIST":
+                this.AddToWishlist(userId, product);
+                break;
+            case "ADD_TO_CART":
+                this.ManageCart(userId, product, qty, false);
+                break;
+            case "REMOVE_FROM_CART":
+                this.ManageCart(userId, product, qty, true);
+                break;
+            case "CREATE_ORDER":
+                this.ManageOrder(userId, order);
+                break;
+            default:
+                break;
+        }
+    }
 }
 
 module.exports = CustomerService;

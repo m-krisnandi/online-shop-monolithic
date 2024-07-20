@@ -154,7 +154,10 @@ class CustomerRepository {
                 if (cartItems.length > 0) {
                     let isExist = false;
                     cartItems.map((item) => {
-                        if (item.product._id.toString() === product._id.toString()) {
+                        if (
+                            item.product._id.toString() ===
+                            product._id.toString()
+                        ) {
                             if (isRemove) {
                                 cartItems.splice(cartItems.indexOf(item), 1);
                             } else {
@@ -181,7 +184,31 @@ class CustomerRepository {
                 "API Error",
                 STATUS_CODES.INTERNAL_SERVER_ERROR,
                 "Unable to Add to Cart"
-            )
+            );
+        }
+    }
+
+    async AddOrderToProfile(customerId, order) {
+        try {
+            const profile = await CustomerModel.findById(customerId);
+
+            if (profile) {
+                if (profile.orders == undefined) {
+                    profile.orders = [];
+                }
+                profile.orders.push(order);
+
+                profile.cart = [];
+
+                const profileResult = await profile.save();
+                return profileResult;
+            }
+        } catch (error) {
+            throw APIError(
+                "API Error",
+                STATUS_CODES.INTERNAL_SERVER_ERROR,
+                "Unable to add to order!"
+            );
         }
     }
 }
